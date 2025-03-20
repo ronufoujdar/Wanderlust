@@ -31,7 +31,7 @@ main()
 
 // const MONGO_URL="mongodb://127.0.0.1:27017/WanderLust"
 async function main(){
-    await mongoose.connect("mongodb://127.0.0.1:27017/Wanderlust")
+    await mongoose.connect("mongodb://127.0.0.1:27017/Wander Travel")
 }
 
 app.set("views engine","ejs")
